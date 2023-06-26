@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title Document
+    link(rel="stylesheet", href="../styles/style.css")
+  body
+    include navbar.pug 
+    include welcome.pug
+    //- include mission.pug
+    block mission
+      h1 Eat  &nbsp &nbsp &nbsp &nbsp  Sleep   &nbsp &nbsp &nbsp &nbsp Repeat
+    include footer
